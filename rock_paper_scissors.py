@@ -24,11 +24,11 @@ class RPS():
             elif self.player.lower() == 's' and self.comp == 2:
                 print("Game Tied") 
             elif self.comp == 0 and self.player.lower() == 's':
-                print("You Loose")
+                print("You Lose")
             elif self.comp == 1 and self.player.lower() == 'r':
-                print("You Loose")
+                print("You Lose")
             elif self.comp == 2 and self.player.lower() == 'p':
-                print("You Loose")
+                print("You Lose")
             elif self.player.lower() == 'r' and self.comp == 2:
                 print("You Win!")
             elif self.player.lower() == 'p' and self.comp == 0:
